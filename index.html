@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#11121e">
+<title>The Heartbound Journey</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="game-shell">
+  <canvas id="game" width="960" height="640" aria-label="The Heartbound Journey game"></canvas>
+  <div id="touch-ui">
+    <div id="dpad" aria-label="Movement controls">
+      <button class="pad up" data-key="up" aria-label="Move up">▲</button>
+      <button class="pad left" data-key="left" aria-label="Move left">◀</button>
+      <button class="pad right" data-key="right" aria-label="Move right">▶</button>
+      <button class="pad down" data-key="down" aria-label="Move down">▼</button>
+    </div>
+    <button id="talk" class="action" aria-label="Interact">TALK</button>
+    <button id="pause" class="small-action" aria-label="Pause">Ⅱ</button>
+  </div>
+</main>
+<script src="game.js"></script>
+</body>
+</html>
